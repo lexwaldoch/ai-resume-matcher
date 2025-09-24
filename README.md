@@ -42,11 +42,17 @@ An AI-powered tool that evaluates the match between resumes and job descriptions
 
 ## Project Structure
 ├── data/ → Sample resumes and job specs
+
 ├── models/ → Resume parser and matcher
+
 ├── app/ → Streamlit frontend and utils
+
 ├── tests/ → Unit tests
+
 ├── notebooks/ → EDA and prototyping
+
 ├── requirements.txt → Dependencies
+
 ├── Dockerfile → Deployment setup
 
 ---
