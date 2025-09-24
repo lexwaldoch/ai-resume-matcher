@@ -1,15 +1,6 @@
 import spacy
-import subprocess
-import sys
 
-def load_spacy_model():
-    try:
-        return spacy.load("en_core_web_sm")
-    except OSError:
-        subprocess.run([sys.executable, "-m", "spacy", "download", "en_core_web_sm"], check=True)
-        return spacy.load("en_core_web_sm")
-
-nlp = load_spacy_model()
+nlp = spacy.load("en_core_web_sm")
 
 def extract_skills(text):
     doc = nlp(text)
