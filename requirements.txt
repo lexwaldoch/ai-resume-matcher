@@ -2,8 +2,10 @@ streamlit
 spacy
 sentence-transformers
 openai
-PyMuPDF  # for parsing PDFs
+PyMuPDF
 scikit-learn
 numpy
 pandas
 pytest
+openai
+python-dotenv
