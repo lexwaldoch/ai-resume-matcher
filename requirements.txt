@@ -1,0 +1,9 @@
+streamlit
+spacy
+sentence-transformers
+openai
+PyMuPDF  # for parsing PDFs
+scikit-learn
+numpy
+pandas
+pytest
