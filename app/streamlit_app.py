@@ -1,3 +1,11 @@
+import os
+import sys
+
+# Insert the project root (parent of `app/`) at the front of sys.path
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(APP_DIR, ".."))
+sys.path.insert(0, PROJECT_ROOT)
+
 import streamlit as st
 from models.resume_parser import extract_skills
 from models.job_matcher import calculate_match_score
