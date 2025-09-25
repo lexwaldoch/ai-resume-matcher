@@ -8,13 +8,13 @@ An AI-powered tool that evaluates the match between resumes and job descriptions
 
 ## Features
 
- Resume and job spec parsing (PDF, TXT) 
- Skill extraction using NLP (spaCy / BERT) 
- Similarity scoring using sentence embeddings (cosine similarity) 
- AI-generated bullet point suggestions (GPT-based) 
- Streamlit app for interactive use 
- Optional job scraping 
- Dockerized + testable + clean code
+ Resume and job spec parsing (PDF, TXT)  
+ Skill extraction using NLP (spaCy / BERT)  
+ Similarity scoring using sentence embeddings (cosine similarity)  
+ AI-generated bullet point suggestions (GPT-based)  
+ Streamlit app for interactive use  
+ Optional job scraping  
+ Dockerized + testable + clean code 
 
 ---
 
@@ -39,19 +39,12 @@ An AI-powered tool that evaluates the match between resumes and job descriptions
 ---
 
 ## Project Structure
-├── data/ → Sample resumes and job specs
-
-├── models/ → Resume parser and matcher
-
-├── app/ → Streamlit frontend and utils
-
-├── tests/ → Unit tests
-
-├── notebooks/ → EDA and prototyping
-
-├── requirements.txt → Dependencies
-
-├── Dockerfile → Deployment setup
+| ├── data/ → Sample resumes and job specs  
+| ├── models/ → Resume parser and matcher  
+| ├── app/ → Streamlit frontend and utils  
+| ├── tests/ → Unit tests  
+├── requirements.txt → Dependencies  
+├── Dockerfile → Deployment setup  
 
 ---
 
