@@ -24,8 +24,6 @@ An AI-powered tool that evaluates the match between resumes and job descriptions
 |---------------|-------------|----------------|
 | ![](screenshots/upload.png) | ![](screenshots/match.png) | ![](screenshots/suggestions.png) |
 
-🔗 [Live Demo (Streamlit Cloud)](https://your-app-url.streamlit.app)
-
 ---
 
 ## Tech Stack
