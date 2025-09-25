@@ -70,7 +70,7 @@ An AI-powered tool that evaluates the match between resumes and job descriptions
 ###  Installation
 
 ```bash
-git clone https://github.com/yourusername/ai-resume-matcher.git
+git clone https://github.com/lexwaldoch/ai-resume-matcher.git
 cd ai-resume-matcher
 pip install -r requirements.txt
 
